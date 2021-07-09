@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdCloud, MdCode, MdDesktopMac } from 'react-icons/md';
+import { MdCloud, MdCode, MdDesktopMac, MdStorage } from 'react-icons/md';
 import styled from 'styled-components';
 
 import SectionTitle from './SectionTitle';
@@ -39,12 +39,12 @@ export default function ServiceSection() {
           <ServicesSectionItem
             icon={<MdCode />}
             title="Web Development"
-            desc="Building websites to be responsive to help optimized performance. Making the website easy to use for user experience. "
+            desc="Building responsive websites to help optimize performance and making an easy user experiences."
           />
           <ServicesSectionItem
-            icon={<MdCloud />}
+            icon={<MdStorage />}
             title="Database"
-            desc="Building your own database will help reduce the amount of time you spend managing data. Reducing data redundancy, reducing updating errors, and increase consistency. "
+            desc="Having a well-designed database guarantees your information is consistent, eleiminating redundant data, easy to query data, and improves the performance overall. "
           />
         </div>
       </div>
