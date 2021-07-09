@@ -207,7 +207,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Git
+                    GI
                   </a>
                 </li>
               </ul>

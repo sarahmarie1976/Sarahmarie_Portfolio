@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import AboutImg from '../assets/images/about-sec-img2.png';
+import AboutImg from '../assets/images/about-sec-img1.png';
 import Buttons from './Buttons';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
@@ -29,7 +29,7 @@ const AboutSectionSytles = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 2rem;
+    gap: 5rem;
     margin-top: 2rem;
   }
   @media only screen and (max-width: 950px) {
@@ -81,10 +81,12 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I live in Saint Louis Missouri; however, I am originally from Long
-            Island New York. I am very creative, I love to draw, cook, and doing
-            DIYs. I thought creating websites would be an innovative way to show
-            my creativeness in a professional direction.
+            I live in Saint Louis, Missouri; however, I am originally from Long
+            Island, New York. I am very creative. I love to draw, cook, and
+            complete DIY craft projects. Learning to build websites has been an
+            innovative way to show my creativity in a professional direction. I
+            have learned so much throughout this journey. And I can't wait to
+            see where it takes me!
           </PText>
 
           <div className="aboutSection__button">
