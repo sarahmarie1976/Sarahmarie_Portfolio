@@ -1,10 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+
 import NavMenu from './Components/NavMenu';
-import Home from './Pages/home';
-import About from './Pages/about';
-import Projects from './Pages/projects';
-import Contact from './Pages/contact';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Home from './Pages/Home';
+import Projects from './Pages/Projects';
 
 export default function App() {
   return (
