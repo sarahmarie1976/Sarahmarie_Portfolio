@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdCloud, MdCode, MdDesktopMac, MdStorage } from 'react-icons/md';
+import { MdCode, MdDesktopMac, MdStorage } from 'react-icons/md';
 import styled from 'styled-components';
 
 import SectionTitle from './SectionTitle';
@@ -22,7 +22,6 @@ const ServicesSectionStyles = styled.div`
       margin-top: 5rem;
       gap: 5rem;
     }
-  }
 `;
 
 export default function ServiceSection() {
