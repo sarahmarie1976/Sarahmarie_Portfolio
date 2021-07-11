@@ -16,13 +16,14 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'State Management Surfs',
-    desc:
-      'I built a Smurf village utilizing Redux as my State management by using the reducer pattern and redux',
-    img: 'https://i.postimg.cc/D0mwzjf8/the-smurfs.jpg',
+    name: 'NASA Photo of the Day',
+    desc: 'Worked with NASA API to fetch the "Astronomy Photo Of The Day" .',
+    img:
+      'https://apod.nasa.gov/apod/image/2107/IMG_2021_07_08_29558_APOD1024.jpg',
     github:
-      'Github Link: https://github.com/sarahmarie1976/web-sprint-challenge-advanced-state-management',
+      'Github Link: https://github.com/sarahmarie1976/nasa-photo-of-the-day',
   },
+
   {
     id: uuidv4(),
     name: 'Tic Tac Toe',
@@ -32,12 +33,12 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'NASA Photo of the Day',
-    desc: 'Worked with NASA API to fetch the "Astronomy Photo Of The Day" .',
-    img:
-      'https://apod.nasa.gov/apod/image/2107/IMG_2021_07_08_29558_APOD1024.jpg',
+    name: 'State Management Surfs',
+    desc:
+      'I built a Smurf village utilizing Redux as my State management by using the reducer pattern and redux',
+    img: 'https://i.postimg.cc/D0mwzjf8/the-smurfs.jpg',
     github:
-      'Github Link: https://github.com/sarahmarie1976/nasa-photo-of-the-day',
+      'Github Link: https://github.com/sarahmarie1976/web-sprint-challenge-advanced-state-management',
   },
   {
     id: uuidv4(),
