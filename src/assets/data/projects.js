@@ -1,45 +1,52 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+
+import DarkModeImg from '../images/Dark_Mode.png';
+import ProjectImg from '../images/resumeImg.jpg';
+import TicTacToeImg from '../images/ticTacToe.png';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Advanced React - React Plants',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'In this project I explored some advance React topics such as class components,  custom hooks (dark mode hook), & React testing library. ',
+    github:
+      'Github Link:  https://github.com/sarahmarie1976/web-sprint-challenge-advanced-react',
+    img: DarkModeImg,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'State Management Surfs',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'I built a Smurf village utilizing Redux as my State management by using the reducer pattern and redux',
+    img: 'https://i.postimg.cc/D0mwzjf8/the-smurfs.jpg',
+    github:
+      'Github Link: https://github.com/sarahmarie1976/web-sprint-challenge-advanced-state-management',
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
-    desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+    name: 'Tic Tac Toe',
+    desc: 'Want to play a game of Tic Tac Toe?',
+    img: TicTacToeImg,
+    github: 'Github Link: https://github.com/sarahmarie1976/tic-tac-toe-2',
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+    name: 'NASA Photo of the Day',
+    desc: 'Worked with NASA API to fetch the "Astronomy Photo Of The Day" .',
+    img:
+      'https://apod.nasa.gov/apod/image/2107/IMG_2021_07_08_29558_APOD1024.jpg',
+    github:
+      'Github Link: https://github.com/sarahmarie1976/nasa-photo-of-the-day',
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
+    name: 'Digital Resume',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+      'This project I built a digital resume from scratch. I took an old resume to practice with less and creating a table for my qualifications. ',
     img: ProjectImg,
+    github:
+      'Github Link: https://github.com/sarahmarie1976/Preprocessing-I/tree/master',
   },
 ];
 
