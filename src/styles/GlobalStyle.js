@@ -14,6 +14,7 @@ const GlobalStyles = createGlobalStyle`
     --white : white;
     --black: black;
     --teal-bl: #009edb;
+    --soft-black: #202020;
   }
   html{
     font-size: 10px;
