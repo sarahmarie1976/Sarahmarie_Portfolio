@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
+import Footer from './Components/Footer';
 import NavMenu from './Components/NavMenu';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
@@ -29,6 +30,7 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </>
   );
