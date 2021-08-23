@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+import projects from '../assets/data/projects';
 import projectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
@@ -45,21 +46,23 @@ export default function ProjectItem({
   img = projectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  github = 'https://github.com/surmon-china/vue-awesome-swiper/issues/680',
+  // github = 'https://github.com/sarahmarie1976',
 }) {
   return (
     <ProjectItemStyles>
-      <Link to="/projects" className="projectItem__img">
-        <img src={img} alt="project img" />
-      </Link>
-      <a href={github}>
+      <a href="https://google.com" target="_blank" rel="noreferrer">
+        <Link to="/projects" className="projectItem__img">
+          <img src={img} alt="project img" />
+        </Link>
+
         <div className="projectItem__info">
           <Link to="#">
             <h3 className="projectItem__title">{title}</h3>
           </Link>
-          <Link to="#">
-            <h3 className="projectItem__github">{github}</h3>
-          </Link>
+          {/* <Link to="#">
+            <h3 className="projectItem__github"></h3>
+          </Link> */}
+
           <p className="projectItem__desc">{desc}</p>
         </div>
       </a>

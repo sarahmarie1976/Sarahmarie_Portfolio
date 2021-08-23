@@ -10,8 +10,8 @@ const projects = [
     name: 'Advanced React - React Plants',
     desc:
       'In this project I explored some advance React topics such as class components,  custom hooks (dark mode hook), & React testing library. ',
-    github:
-      'Github Link:  https://github.com/sarahmarie1976/web-sprint-challenge-advanced-react',
+    // github0:
+    //   'Github Link:  https://github.com/sarahmarie1976/web-sprint-challenge-advanced-react',
     img: DarkModeImg,
   },
   {
@@ -20,8 +20,8 @@ const projects = [
     desc: 'Worked with NASA API to fetch the "Astronomy Photo Of The Day" .',
     img:
       'https://apod.nasa.gov/apod/image/2107/IMG_2021_07_08_29558_APOD1024.jpg',
-    github:
-      'Github Link: https://github.com/sarahmarie1976/nasa-photo-of-the-day',
+    // github1:
+    //   'Github Link: https://github.com/sarahmarie1976/nasa-photo-of-the-day',
   },
 
   {
@@ -29,15 +29,15 @@ const projects = [
     name: 'Tic Tac Toe',
     desc: 'Want to play a game of Tic Tac Toe?',
     img: TicTacToeImg,
-    github: 'Github Link: https://github.com/sarahmarie1976/tic-tac-toe-2',
+    github2: 'Github Link: https://github.com/sarahmarie1976/tic-tac-toe-2',
   },
   {
     id: uuidv4(),
-    name: 'State Management Surfs',
+    name: 'State Management Smurfs',
     desc:
       'I built a Smurf village utilizing Redux as my State management by using the reducer pattern and redux',
     img: 'https://i.postimg.cc/D0mwzjf8/the-smurfs.jpg',
-    github:
+    github3:
       'Github Link: https://github.com/sarahmarie1976/web-sprint-challenge-advanced-state-management',
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     desc:
       'This project I built a digital resume from scratch. I took an old resume to practice with less and creating a table for my qualifications. ',
     img: ProjectImg,
-    github:
+    github4:
       'Github Link: https://github.com/sarahmarie1976/Preprocessing-I/tree/master',
   },
 ];

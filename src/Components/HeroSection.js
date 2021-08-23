@@ -207,7 +207,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GI
+                    GH
                   </a>
                 </li>
               </ul>
