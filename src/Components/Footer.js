@@ -68,11 +68,12 @@ export default function Footer() {
       <div className="container">
         <div className="footer__col">
           <h1 className="footer__col1__title">Sarahmarie Hollenstein</h1>
-          <PText>
-            I am a Full-Stack Developer from Saint Louis, Missouri. I am finding
-            creative ways to learn and build both Front-End and Back-End
-            designs.
-          </PText>
+          <PText>"True leaders always practice the </PText>
+          <PText>three R's: </PText>
+          <PText>Respect for self, </PText>
+          <PText>Respect for others,</PText>
+          <PText>Responsibility for all their actions"</PText>
+          <PText> -Anonymous </PText>
         </div>
         <div className="footer__col2">
           <FooterCol
