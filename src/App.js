@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import Footer from './Components/Footer';
 import NavMenu from './Components/NavMenu';
+import SmoothScrollbar from './Components/SmoothScrollbar';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
@@ -13,24 +14,26 @@ export default function App() {
     <>
       <Router>
         <NavMenu />
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
+        <SmoothScrollbar>
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
 
-          <Route path="/projects">
-            <Projects />
-          </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
 
-          <Route path="/contact">
-            <Contact />
-          </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
 
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        <Footer />
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+          <Footer />
+        </SmoothScrollbar>
       </Router>
     </>
   );
