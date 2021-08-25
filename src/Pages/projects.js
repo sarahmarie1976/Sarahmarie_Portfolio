@@ -22,7 +22,7 @@ const ProjectStyle = styled.div`
     width: 100%;
     font-size: 2rem;
     padding: 0.8rem;
-    color: var(--teal-bl);
+    color: var(--black);
     font-weight: bold;
     border-radius: 6px;
     outline: none;
