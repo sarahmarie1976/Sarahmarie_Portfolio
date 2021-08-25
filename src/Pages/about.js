@@ -37,6 +37,7 @@ const AboutPageStyles = styled.div`
       padding: 0.5rem;
       border-radius: 8px;
     }
+    
   }
   .about__heading {
     font-size: 3.6rem;
