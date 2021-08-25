@@ -67,7 +67,7 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col">
-          <h1 className="footer__col1__title">Sarahmarie Hollentein</h1>
+          <h1 className="footer__col1__title">Sarahmarie Hollenstein</h1>
           <PText>
             I am a Full-Stack Developer from Saint Louis, Missouri. I am finding
             creative ways to learn and build both Front-End and Back-End
